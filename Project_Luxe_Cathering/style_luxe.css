@@ -1,6 +1,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+}
 body {
     font-family: 'Kanit', sans-serif !important;
     background-color: #0c0b09;
@@ -20,7 +25,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Top Bar-start
 --------------------------------------------------------------*/
-/* CSS สำหรับ topbar ให้มีการซ่อนเมื่อ scroll ลง */
+/* CSS สำหรับ topbar ให้มีการซ่อนเมื่อ scroll ลง 
 #topbar {
     height: 40px;
     font-size: 14px;
@@ -28,10 +33,9 @@ a:hover {
     z-index: 996;
 }
 
-/* ส่วนที่ต้องการซ่อน top bar เมื่อ scroll ลง */
+/* ส่วนที่ต้องการซ่อน top bar เมื่อ scroll ลง 
 #topbar.topbar-scrolled {
     top: -40px;
-    /* ซ่อน top bar ด้านบน */
 }
 
 #topbar .contact-info i {
@@ -43,7 +47,7 @@ a:hover {
     padding-left: 5px;
     color: #fff;
 }
-/*--------------------------------------------------------------
+--------------------------------------------------------------
 # Top Bar-end
 --------------------------------------------------------------*/
 
@@ -56,7 +60,7 @@ a:hover {
     transition: all 0.5s;
     z-index: 997;
     padding: 8px 0;
-    top: 40px;
+    top: 0px;
 }
 
 #header.header-scrolled {
@@ -66,7 +70,7 @@ a:hover {
 }
 
 #header .logo img {
-    max-height: 100px;
+    height: 80px;
 }
 
 /*--------------------------------------------------------------
@@ -74,11 +78,8 @@ a:hover {
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/*
-  Desktop Navigation 
-*/
+# Navigation Menu  /  Desktop Navigation
+--------------------------------------------------------------*/ 
 .navbar {
     padding: 0;
 }
@@ -295,7 +296,7 @@ a:hover {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("./img/hero-bg.jpg") top center;
+    background: url("./img/hero-bg-new.jpg") top center;
     background-size: cover;
     position: relative;
     padding: 0;
