@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style_luxe.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- fonts.google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Kanit&family=Noto+Serif:wght@500&family=Playfair+Display:wght@400;600&family=Varela+Round&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+            <!-- image logo -->
+            <a href="index.html" class="logo me-auto me-lg-0"><img src="./img/Luxe_Logo.png" alt="logo"
+                    class="img-fluid" /></a>
+            <!-- image logo -->
+
+            <!-- nav menu -->
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">หน้าแรก</a></li>
+                    <li><a class="nav-link scrollto" href="#about">เกี่ยวกับเรา</a></li>
+                    <li class="dropdown"><a href="#"><span>รับจัดเลี้ยง</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li class="dropdown"><a href="#"><span>จัดเลี้ยงในสถานที่</span> <i
+                                        class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="./buffet.html" target="_blank">บุฟเฟ่ต์ราคาประหยัด / BUFFET</a></li>
+                                    <li><a href="./buffetplus.html" target="_blank">บุฟเฟ่ต์ พลัส / BUFFET PLUS</a></li>
+                                    <li><a href="#">งานเลี้ยงบริษัท / งานเลี้ยงประชุม</a></li>
+                                    <li><a href="./cocktail.html" target="_blank">รับจัดเลี้ยงค็อกเทล / COCKTAIL</a></li>
+                                    <li><a href="./party.html" target="_blank">งานเลี้ยงสังสรรค์ / งานปาร์ตี้</a></li>
+                                    <li><a href="./accessories.html" target="_blank">อุปกรณ์เสริม โต๊ะ เก้าอี้ เต้นท์</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#"><span>จัดเลี้ยงนอกสถานที่</span> <i
+                                        class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="./buffet.html">บุฟเฟ่ต์ราคาประหยัด / BUFFET</a></li>
+                                    <li><a href="./buffetplus.html">บุฟเฟ่ต์ พลัส / BUFFET PLUS</a></li>
+                                    <li><a href="#">โต๊ะไทย / THAI TABLE</a></li>
+                                    <li><a href="#">โต๊ะจีน / CHINESE TABLE</a></li>
+                                    <li><a href="./lunchbox.html">ข้าวกล่อง / LUNCH BOX</a></li>
+                                    <li><a href="./vegan.html">อาหารเจ / มังสวิรัติ VEGETARIAN</a></li>
+                                    <li><a href="./coffeebreak.html">COFFEE BREAK / SNACK BOX</a></li>
+                                    <li><a href="./party.html">งานเลี้ยงสังสรรค์ / งานปาร์ตี้</a></li>
+                                    <li><a href="./wedding.html">งานแต่งงาน / งานบวช</a></li>
+                                    <li><a href="./cocktail.html">รับจัดเลี้ยงค็อกเทล / COCKTAIL</a></li>
+                                    <li><a href="./accessories.html">อุปกรณ์เสริม โต๊ะ เก้าอี้ เต้นท์</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>รับจัดพิธีสงฆ์ครบวงจร</span> <i
+                                class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">จัดพิธีสงฆ์พรีเมียมครบวงจร</a></li>
+                            <li><a href="#">จัดพิธีสงฆ์ ราคาประหยัด</a></li>
+                            <li><a href="#">สังฆทานงานบุญ</a></li>
+                            <li><a href="./monkslunchbox.html" target="_blank">ปิ่นโตอิ่มบุญถวายพระสงฆ์</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#theme">ธีมจัดงานเลี้ยง</a></li>
+                    <li><a class="nav-link scrollto" href="#events">ข้อเสนอสุดพิเศษ</a></li>
+                    <li><a class="nav-link scrollto" href="#chefs">เชฟของเรา</a></li>
+                    <li><a class="nav-link scrollto" href="#gallery">ผลงานของเรา</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">ติดต่อเรา</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- nav menu -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <div class="header-cocktail">
+        <h1>รับจัดเลี้ยงค็อกเทล<span> Cocktail</span></h1>  
+    </div>
+    
+
+    <div class="head-cocktail">
+        <p>
+            <span>Luxe Catering</span> รับจัดงานเลี้ยงแบบค็อกเทลนอกสถานที่ การ <br>
+            จัดเลี้ยงแบบ “Cocktail” เป็นที่นิยมอย่างมากในยุคสมัยนี้ ด้วยรูปแบบ <br>
+            อาหารที่มีความสวยงาม อลังการ โดดเด่น และสามารถจัดอาหารให้เข้ากับ <br>
+            ธีมงานได้ อาหารชิ้นเล็กพอดีคำ บรรจงจัดวางอย่างสวยงามทำให้งานของ <br>
+            คุณดูหรูหรา ดูแพง อาหารน่าทาน และสร้างความอบอุ่นเป็นกันเองสำหรับ <br>
+            แขกที่มาร่วมงาน แขกที่มาร่วมงานสามารถเดินทานอาหารได้อย่างสะดวก <br>
+            และพูดคุยพบปะสังสรรค์กับแขกกลุ่มอื่นได้อย่างทั่วถึง เรามีค็อกเทล ให้ <br>
+            เลือกหลายแบบ ทั้งแบบมินิค็อกเทล ค็อกเทลสแตนดาร์ด และค็อกเทลพรี <br>
+            เมี่ยม ขึ้นอยู่กับประเภทงาน ธีมงาน และงบประมาณของลูกค้า
+        </p>
+        <img src="./img/cocktail/ck-img-1.jpg" alt="">
+    </div>
+
+    <div class="package-cocktail">
+        <h2>Cocktail Package</h2>
+    </div>
+
+    <table>
+        <tbody>
+            <tr>
+                <th colspan="5" >Mini Cocktail</th>
+            </tr>
+            <tr class="tr1">
+                <td><strong>จำนวนแขก</strong></td>
+                <td><strong>100 ท่านขึ้นไป</strong></td>
+                <td><strong>70 ท่านขึ้นไป</strong></td>
+                <td><strong>50 ท่านขึ้นไป</strong></td>
+                <td><strong>30 ท่านขึ้นไป</strong></td>
+            </tr>
+            <tr>
+                <td><strong>รายการขนม</strong></td>
+                <td>4 ชิ้น</td>
+                <td>4 ชิ้น</td>
+                <td>4 ชิ้น</td>
+                <td>4 ชิ้น</td>
+            </tr>
+                <td><strong>ราคา / ท่าน</strong></td>
+                <td>140 บาท</td>
+                <td>180 บาท</td>
+                <td>220 บาท</td>
+                <td>340 บาท</td>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <table>
+        <tbody>
+            <tr>
+                <th colspan="5" >Standard Cocktail</th>
+            </tr>
+            <tr class="tr1">
+                <td rowspan="2"><strong>จำนวนแขก</strong></td>
+                <td colspan="3"><strong>อาหารค็อกเทล (ราคาอาหาร / ท่าน)</strong></td>
+                <td rowspan="2"><strong>น้ำดื่ม</strong></td>
+            </tr>
+            <tr>
+                <td><strong>6 รายการ</strong></td>
+                <td><strong>7 รายการ</strong></td>
+                <td><strong>8 รายการ</strong></td>
+            </tr>
+            <tr>
+                <td><strong>100 ท่าน</strong></td>
+                <td>220 บาท</td>
+                <td>260 บาท</td>
+                <td>300 บาท</td>
+                <td>ฟรี</td>
+            </tr>
+            <tr>
+                <td><strong>70 ท่าน</strong></td>
+                <td>275 บาท</td>
+                <td>280 บาท</td>
+                <td>325 บาท</td>
+                <td>ฟรี</td>
+            </tr>
+            <tr>
+                <td><strong>50 ท่าน</strong></td>
+                <td>295 บาท</td>
+                <td>280 บาท</td>
+                <td>345 บาท</td>
+                <td>ฟรี</td>
+            </tr>
+            <tr>
+                <td><strong>30 ท่าน</strong></td>
+                <td>480 บาท</td>
+                <td>485 บาท</td>
+                <td>490 บาท</td>
+                <td>ฟรี</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <table>
+        <tbody>
+            <tr>
+                <th colspan="5" >Premium Cocktail</th>
+            </tr>
+            <tr class="tr1">
+                <td rowspan="2"><strong>จำนวนแขก</strong></td>
+                <td colspan="3"><strong>อาหารค็อกเทล (ราคาอาหาร / ท่าน)</strong></td>
+                <td rowspan="2"><strong>น้ำดื่ม</strong></td>
+            </tr>
+            <tr>
+                <td><strong>6 รายการ</strong></td>
+                <td><strong>8 รายการ</strong></td>
+                <td><strong>10 รายการ</strong></td>
+            </tr>
+            <tr>
+                <td><strong>100 ท่าน</strong></td>
+                <td>280 บาท</td>
+                <td>360 บาท</td>
+                <td>440 บาท</td>
+                <td>ฟรี</td>
+            </tr>
+            <tr>
+                <td><strong>70 ท่าน</strong></td>
+                <td>350 บาท</td>
+                <td>440 บาท</td>
+                <td>540 บาท</td>
+                <td>ฟรี</td>
+            </tr>
+            <tr>
+                <td><strong>50 ท่าน</strong></td>
+                <td>395 บาท</td>
+                <td>495 บาท</td>
+                <td>595 บาท</td>
+                <td>ฟรี</td>
+            </tr>
+            <tr>
+                <td><strong>30 ท่าน</strong></td>
+                <td>-</td>
+                <td>เหมา 21,900 บาท</td>
+                <td>เหมา 24,900 บาท</td>
+                <td>ฟรี</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br><br>
+
+
+     <!-- ======= Footer ======= -->
+     <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+                            <h3>Luxe Catering</h3>
+                            <p>
+                                123 Khon Khen, Thailand<br>
+                                <strong>Phone:</strong>0970099777<br>
+                                <strong>Email:</strong>luxe.catering@gmail.com<br>
+                                <strong>Facebook:</strong>Luxe Catering<br>
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        </ul>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Luxe Catering</span></strong>. All Rights Reserved
+            </div>
+            
+        </div>
+    </footer><!-- End Footer -->
+
+</body>
+</html>

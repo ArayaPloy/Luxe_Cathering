@@ -1461,3 +1461,857 @@ section hr {
     font-size: 13px;
     color: #fff;
 }
+
+/* buffet plus */
+
+.head-bfp {
+    margin-top: 100px;
+    text-align:center;  
+    padding-bottom:20px;  
+    word-wrap: break-word;
+}
+
+.head-bfp p{
+    text-align:center;   
+    word-wrap: break-word;
+}
+
+.head-bfp span{
+    color: #d9ba85;
+}
+
+.container-bfp {
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
+.block-bfp {
+    margin: 65px;
+    padding: 20px;
+}
+
+.block-bfp img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #727272;
+}
+
+.menubox-bfp {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-bfp p {
+    text-align: center;
+    font-size: 2em;
+}
+
+.box-bfp {
+    width: 550px;
+    height: 550px;
+    background: #d9ba85;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 10px #727272;
+}
+
+.box-bfp p {
+    margin-top: 30px;
+}
+
+.box-bfp-img1 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/buffet/img-1.jpg);
+}
+
+.box-bfp-img2 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/buffet/img-2.jpg);
+}
+
+.box-bfp-img3 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/buffet/img-3.jpg);
+}
+
+.box-bfp-img4 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/buffet/img-4.jpg);
+}
+
+.box-bfp-img5 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/buffet/img-5.jpg);
+}
+
+.box-bfp-img6 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/buffet/img-6.jpg);
+}
+
+.setup {
+    margin: 65px;
+}
+
+.contact-page {
+    background-color: #444444;
+    color: white;
+    margin-top: 75px;
+}
+
+@media (max-width: 768px) {
+    .box-bfp {
+        width: 95%;
+    }
+}
+
+/* end buffet plus */
+
+/* launch box */
+
+.head-lb {
+    background-color: #37332a;
+    color: white;
+    margin: 65px;
+    border-radius: 10px;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.box-lb {
+    margin: 25px;
+    float: left;
+}
+
+.box-lb img {
+    border-radius: 10px;
+}
+
+.head-lb .content-lb {
+    margin: 10px;
+    margin-right: 50px;
+}
+
+.content-lb span {
+    color: #d9ba85;
+}
+
+.price-lb p{
+    text-align: center;
+    font-size: 2em;
+}
+
+.content-box-lb {
+    margin-top: -100;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-lb {
+    width: 560px;
+    height: 550px;
+    background: #d9ba85;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 10px #727272;
+    background-size: cover;
+}
+
+.card-lb h3 {
+    margin-top: 30px;
+}
+
+
+.card-lb-img1 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/lucnhbox/lb-img2.jpg);
+}
+
+.card-lb-img2 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/lucnhbox/lb-img3.jpg);
+}
+.card-lb-img3 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/lucnhbox/lb-img4.jpg);
+}
+
+@media (max-width: 768px) {
+    .card-lb {
+        width: 95%;
+    }
+}
+
+/* end lunchbox */
+
+/* coffee break */
+
+.head-coffee {
+    background-color: #37332a;
+    color: white;
+    margin: 65px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header-coffee {
+    margin: 5em;
+}
+
+.coffee-img img{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.head-con-cf {
+    text-align: center;
+}
+
+.content-box-cf , .content-box-snk {
+    margin-top: -100;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-cf {
+    width: 860px;
+    height: 650px;
+    background: #d9ba85;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 10px #727272;
+}
+
+.card-cf h3,p {
+    margin-top: 50px;
+}
+
+.card-cf-img1 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/coffeebreak/cf-img2.jpg);
+    background-size: cover;
+}
+
+.card-cf-img2 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/coffeebreak/cf-img3.jpg);
+    background-size: cover;
+}
+
+.haead-snack {
+    text-align: center;
+}
+
+.card-snk-img1 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/coffeebreak/snk-img1.jpg);
+    background-size: cover;
+}
+
+.card-snk-img2 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/coffeebreak/snk-img2.jpg);
+    background-size: cover;
+}
+
+.snack-info {
+    margin: 65px;
+}
+
+.price-coffee {
+    text-align: center;
+    background-color: #37332a;
+    height: 300px;
+    margin: 65px;
+    padding-top: 30px;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #727272;
+}
+
+.price-coffee ul{
+    list-style-type: none;
+}
+
+@media screen and (max-width: 768px){
+    .head-coffee{
+        display: block;
+    }
+
+    .coffee-img img {
+        border-radius: 10px;
+        margin: 45px;
+    }
+}
+
+/* end coffee break */
+
+/* Cocktail */
+
+.header-cocktail {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.head-cocktail {
+    background-color: #37332a;
+    margin: 65px;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-cocktail img{
+    width: 100%;
+}
+
+.header-cocktail span, .head-cocktail span{
+    color: #d9ba85;
+}
+
+.head-cocktail p{
+    padding: 80px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+.package-cocktail {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+table {
+    border: 2px solid #37332a;
+    text-align: center;
+    width: 93.3%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #37332a;
+    color: white;
+    font-size: 2em;
+    height: 75px;
+}
+
+table td {
+    font-size: 1.2em;
+    height: 50px;
+    background-color: #dbdbdb;
+    border: 2px solid #d9ba85;
+}
+
+
+/* end Cocktail */
+
+/* Party */
+
+.head-party {
+    text-align: center;
+    margin-top: 10em;
+}
+
+.head-party h1{
+    color: #d9ba85;
+}
+
+.head-party p{
+    font-size: 1.2em;
+}
+
+.container-party{
+    margin-top: -100;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-party {
+    width: 550px;
+    height: 550px;
+    background: #d9ba85;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 10px #727272;
+}
+
+
+.card-party-img1 {
+    border-radius: 10px;
+    background-color: #1d1b16;
+    height: 550px;
+    background-image: url(./img/party/party-img1.jpg);
+    background-size: cover;
+}
+
+.card-party-img2 {
+    border-radius: 10px;
+    background-color: #1d1b16;
+    height: 550px;
+    background-image: url(./img/party/party-img2.jpg);
+    background-size: cover;
+}
+
+.card-party-img3 {
+    border-radius: 10px;
+    background-color: #1d1b16;
+    height: 550px;
+    background-image: url(./img/party/party-img3.jpg);
+    background-size: cover;
+}
+
+
+@media (max-width: 768px) {
+    .card-party {
+        width: 90%;
+    }
+}
+
+
+/* end Party */
+
+/* accessories */
+
+.head-acc {
+    margin-top: 100px;
+    text-align:center;  
+    padding-bottom:20px;  
+    word-wrap: break-word;
+}
+
+.head-acc p {
+    text-align: center;
+}
+
+.menubox-acc {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-acc {
+    width: 550px;
+    height: 550px;
+    background: #d9ba85;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 10px #727272;
+}
+
+.box-acc p {
+    margin-top: 30px;
+}
+
+.box-acc-img1 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/accessories/acc-img1.jpg);
+}
+
+.box-acc-img2 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/accessories/acc-img2.jpg);
+}
+
+.box-acc-img3 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/accessories/acc-img3.jpg);
+}
+
+.box-acc-img4 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/accessories/acc-img4.jpg);
+}
+
+.box-acc-img5 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/accessories/acc-img5.jpg);
+}
+
+.box-acc-img6 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/accessories/acc-img6.jpg);
+}
+
+.box-acc-img7 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/accessories/acc-img7.jpg);
+}
+
+.box-acc-img8 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/accessories/acc-img8.jpg);
+}
+
+.box-acc-img9 {
+    border-radius: 10px 10px 0 0;
+    background-color: #1d1b16;
+    height: 450px;
+    background-image: url(./img/accessories/acc-img9.jpg);
+}
+
+.package-head-acc {
+    text-align: center;
+    margin: 50px;
+}
+
+@media (max-width: 768px) {
+    .card-party {
+        width: 90%;
+    }
+}
+
+
+/* end accessories */
+
+/* monks lunch */
+
+.head-monk {
+    text-align: center;
+    margin-top: 10em;
+}
+
+.head-monk span{
+    color: #d9ba85;
+}
+
+.head-monk p{
+    font-size: 1.2em;
+}
+
+
+.content-box-mk {
+    margin-top: -100;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-mk {
+    width: 500px;
+    height: 500px;
+    background: #d9ba85;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 10px #727272;
+    background-size: cover;
+}
+
+.card-mk h3 {
+    margin-top: 30px;
+}
+
+
+.card-mk-img1 {
+    border-radius: 50%;
+    background-color: #1d1b16;
+    height: 500px;
+    width: 500px;
+    background-image: url(./img/other/mk-img1.jpg);
+    background-size: cover;
+}
+
+.card-mk-img2 {
+    border-radius: 50%;
+    background-color: #1d1b16;
+    height: 500px;
+    width: 500px;
+    background-image: url(./img/other/mk-img2.jpg);
+    background-size: cover;
+}
+.card-mk-img3 {
+    border-radius: 50%;
+    background-color: #1d1b16;
+    height: 500px;
+    width: 500px;
+    background-image: url(./img/other/mk-img3.jpg);
+    background-size: cover;
+}
+
+.mk-info {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.info-mk {
+    justify-content: space-around;
+    display: flex;
+    background-color: #37332a;
+    height: 250px;
+    color: white;
+    padding-top: 30px;
+    margin: 0 10%;
+    border-radius: 10px;
+}
+
+.box-mk h3 {
+    color: #d9ba85;
+}
+
+.box-mk p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    .card-party {
+        width: 90%;
+    }
+}
+
+
+/* end monk lunch */
+
+/* vegan */
+
+.header-vegan{
+    text-align: center;
+    margin-top: 10em;
+    margin-bottom: 2em;
+}
+
+.container-vegan {
+    background-color: #37332a;
+    color: white;
+    margin: 0 10%;
+    border-radius: 10px;
+}
+
+.container-vegan p {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2em;
+}
+
+.conten-vegan {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vegan-img {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.vegan-img img{
+    border-radius: 10px;
+    width: 80vw;
+}
+
+/* end vegan */
+
+/* rice */
+
+.head-rice {
+    text-align: center;
+    margin-top: 10em;
+    font-size: 1.2em;
+}
+
+.r-img {
+    display: flex;
+    justify-content: center;
+}
+
+.r-img img{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 60vw;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+/* end rice */
+
+/* wedding */
+.head-wedding {
+    background-color: #37332a;
+    color: white;
+    margin: 5em 5em 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-wedding {
+    text-align: center;
+}
+
+.menubox-wedding {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-wedding p {
+    text-align: center;
+    font-size: 2em;
+}
+
+.box-wedding {
+    width: 550px;
+    height: 550px;
+    background: #d9ba85;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 10px #727272;
+}
+
+.box-wedding p {
+    margin-top: 30px;
+}
+
+.box-wedding-img1 {
+    border-radius: 10px;
+    height: 550px;
+    background-image: url(./img/other/wed-p-img1.jpg);
+    background-size: cover;
+}
+
+.box-wedding-img2 {
+    border-radius: 10px;
+    height: 550px;
+    background-image: url(./img/other/wed-p-img2.jpg);
+    background-size: cover;
+}
+
+.box-wedding-img3 {
+    border-radius: 10px;
+    height: 550px;
+    background-image: url(./img/other/wed-p-img3.jpg);
+    background-size: cover;
+}
+
+.box-wedding-img4 {
+    border-radius: 10px;
+    height: 550px;
+    background-image: url(./img/other/wed-p-img4.jpg);
+    background-size: cover;
+}
+
+.box-wedding-img5 {
+    border-radius: 10px;
+    height: 550px;
+    background-image: url(./img/other/wed-p-img5.jpg);
+    background-size: cover;
+}
+
+.box-wedding-img6 {
+    border-radius: 10px;
+    height: 550px;
+    background-image: url(./img/other/wed-p-img6.jpg);
+    background-size: cover;
+}
+
+.box-wedding-img7 {
+    border-radius: 10px;
+    height: 550px;
+    background-image: url(./img/other/wed-p-img7.jpg);
+    background-size: cover;
+}
+
+.box-wedding-img8 {
+    border-radius: 10px;
+    height: 550px;
+    background-image: url(./img/other/wed-p-img8.jpg);
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .card-party {
+        width: 90%;
+    }
+}
+
+/* end wedding */
